@@ -30,7 +30,7 @@ void setup() {
     pinMode(RED_pin, OUTPUT);
     pinMode(GREEN_pin, OUTPUT);
     pinMode(BLUE_pin, OUTPUT);
-
+    Serial.println("RGB LED Demo Initialized");
 
 }
 
