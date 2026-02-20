@@ -47,26 +47,26 @@ void setup() {
 void loop() {
     // -------- DIGITAL MODE --------
     digitalWrite(RED_pin, HIGH);
-    delay(1000);
+    delay(2000);
 
     digitalWrite(RED_pin, LOW);
-    delay(1000);
+    delay(2000);
 
     // -------- ANALOG (PWM) MODE --------
     analogWrite(RED_pin, 255);   // Full brightness
     analogWrite(GREEN_pin, 0);
     analogWrite(BLUE_pin, 0);
-    delay(1000);
+    delay(2000);
 
     analogWrite(RED_pin, 0);
     analogWrite(GREEN_pin, 255);
     analogWrite(BLUE_pin, 0);
-    delay(1000);
+    delay(2000);
 
     analogWrite(RED_pin, 0);
     analogWrite(GREEN_pin, 0);
     analogWrite(BLUE_pin, 255);
-    delay(1000);
+    delay(2000);
 
     delay(500);
 }
