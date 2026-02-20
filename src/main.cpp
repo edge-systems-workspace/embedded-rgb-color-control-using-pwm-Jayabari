@@ -68,5 +68,5 @@ void loop() {
     analogWrite(BLUE_pin, 255);
     delay(2000);
 
-    delay(500);
+    delay(1000);
 }
